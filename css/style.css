@@ -1,0 +1,215 @@
+body {
+  margin     : 0;
+  text-align : center;
+  font-family: 'Play', sans-serif;
+  font-size  : 1.2em;
+}
+
+h1 {
+  width      : 70%;
+  margin     : auto;
+  padding-top: 150px;
+  color      : #3edbf0;
+  font-family: 'Gugi', cursive;
+  font-size  : 3.5rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.5rem;
+  width    : 50%;
+  margin   : auto;
+
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+h2,
+h3 {
+  font-family: 'Abel', sans-serif;
+  color      : #77acf1;
+}
+
+hr {
+  border       : dotted #c9cccc 6px;
+  border-bottom: none;
+  border-width : 10px;
+  width        : 5%;
+  min-width    : 100px;
+  margin       : 100px auto;
+}
+
+p {
+  margin: auto;
+  color : rgb(82, 82, 82);
+}
+
+th,
+a {
+  color: #00adb5;
+}
+
+td {
+  text-align: left;
+  color     : rgb(66, 63, 63);
+}
+
+.topCloud {
+  position: absolute;
+  top     : 10px;
+  right   : 200px;
+  display : block;
+  width   : 10%;
+}
+
+.bottomCloud {
+  position: absolute;
+  left    : 100px;
+  top     : 200px;
+  display : block;
+  width   : 10%;
+}
+
+.mountain {
+  display: block;
+  width  : 50%;
+  margin : 0 auto;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.programmer {
+  font-size: 2rem;
+  color    : white;
+  margin   : 50px auto 0;
+}
+
+.topContainer {
+  background-color: #77acf1;
+  position        : relative;
+}
+
+.profile>p {
+  width : 40%;
+  margin: 50px auto 0;
+}
+
+.myPhoto {
+  margin-top: 20px;
+  width     : 15%;
+  min-width : 200px;
+}
+
+.middleContainer {
+  background-color: #fdfaf6;
+}
+
+.skillRow {
+  width      : 50%;
+  min-width  : 430px;
+  margin     : 50px auto;
+  text-align : left;
+  line-height: 1.8;
+}
+
+.skillRow2 {
+  width      : 50%;
+  min-width  : 430px;
+  margin     : 50px auto;
+  text-align : right;
+  line-height: 1.8;
+}
+
+.codingImage {
+
+  display     : block;
+  float       : left;
+  width       : 20%;
+  margin-right: 30px;
+}
+
+.aboutSkills {
+  text-decoration      : underline;
+  text-decoration-color: #00adb5;
+  letter-spacing       : 1px;
+}
+
+.softSkillsImage {
+  display    : block;
+  float      : right;
+  width      : 20%;
+  margin-left: 30px;
+}
+
+.skillsTable {
+  margin: 40px auto;
+}
+
+.thumbDown {
+  width: 25px;
+}
+
+.contactMe {
+  position: absolute;
+  width   : 50%;
+}
+
+.contact-me>p {
+  width: 50%;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius   : 20px;
+  border-radius        : 20px;
+  color                : #FFFFFF;
+  font-family          : 'Play', sans-serif;
+  font-size            : 35px;
+  font-weight          : 400;
+  padding              : 18px;
+  background-color     : #3D94F6;
+  text-decoration      : none;
+  display              : inline-block;
+  cursor               : pointer;
+  text-align           : center;
+  margin               : 70px auto 90px;
+}
+
+.btn:hover {
+  background           : #1E62D0;
+  border               : solid #337FED 1px;
+  -webkit-border-radius: 21px;
+  -moz-border-radius   : 21px;
+  border-radius        : 21px;
+  text-decoration      : none;
+}
+
+.bottomContainer {
+  background-color: #77acf1;
+}
+
+.footer-link {
+  margin         : auto 20px;
+  color          : #ffffff;
+  line-height    : 5;
+  font-size      : 1.2rem;
+  letter-spacing : 0.1rem;
+  font-weight    : bold;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: rgb(60, 116, 189);
+}
+
+.copyright {
+  padding-bottom: 50px;
+  color         : #024db1;
+  font-size     : 1.2rem;
+  font-family: 'Abel', sans-serif;
+}
